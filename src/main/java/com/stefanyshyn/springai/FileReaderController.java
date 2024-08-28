@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
     String getResponseFromDoc(){
         return fileReaderService.getResponseFromDocx();
  }
-    @GetMapping("/docx")
-    String getResponseFromDoc(){
-        return fileReaderService.getResponseFromDocx();
+    @GetMapping("/pdf")
+    String getResponseFromPdf(){
+        return fileReaderService.getResponseFromPdf();
     }
 }
